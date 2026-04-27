@@ -190,3 +190,6 @@ if (typeof window !== 'undefined') {
   /* (The rest of your code continues here... include everything you sent me) */
   /* Ensure the very last line of the file is the closing bracket: } */
 }
+
+module.exports = (req, res) => { res.status(200).send('Script loaded'); };
+
