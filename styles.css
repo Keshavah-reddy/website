@@ -2529,9 +2529,6 @@ textarea.input::placeholder {
   line-height: 1.6;
 }
 
-}
-
-
 /* ===== p76: professional email artwork + stronger glow ===== */
 .email-link{
   position:relative;
@@ -3333,3 +3330,38 @@ body.is-loading .fc-guide{ opacity:0 !important; }
     grid-template-columns: 1fr;
   }
 }
+
+/* ===== VANARA CREATIVES TEXT LOGO ===== */
+.text-logo {
+  font-family: 'Sora', sans-serif;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+.text-logo .white-text {
+  color: #ffffff;
+}
+.text-logo .green-text {
+  color: #29AB87; /* Jungle Green */
+}
+
+/* Header Logo Size */
+.brand .text-logo {
+  font-size: clamp(1.4rem, 2vw, 1.8rem);
+}
+
+/* Loading Screen Logo Size */
+.loader-text-logo {
+  font-family: 'Sora', sans-serif;
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  animation: loaderLogoPulse 1.35s ease-in-out infinite;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+.loader-text-logo .white-text { color: #ffffff; }
+.loader-text-logo .green-text { color: #29AB87; }
